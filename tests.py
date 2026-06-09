@@ -5,11 +5,11 @@ class TestBooksCollector:
     
     def test_books_collector_books_genre_init(self):
         collector = BooksCollector()
-        assert collector.books_genre == {}
+        assert collector.books_genre == {} 
 
     def test_books_collector_favorites_init(self):
         collector = BooksCollector()
-        assert collector.favorites == []
+        assert collector.favorites == [] 
 
     def test_books_collector_genre_init(self):
         collector = BooksCollector()
