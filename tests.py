@@ -22,3 +22,10 @@ class TestBooksCollector:
 
     # напиши свои тесты ниже
     # чтобы тесты были независимыми в каждом из них создавай отдельный экземпляр класса BooksCollector()
+    def test_books_collector_init(self):
+        collector = BooksCollector()
+        assert collector.books_genre == {}
+        assert collector.favorites == []
+        assert collector.genre == ['Фантастика', 'Ужасы', 'Детективы', 'Мультфильмы', 'Комедии']
+        assert collector.genre_age_rating == ['Ужасы', 'Детективы']
+  
